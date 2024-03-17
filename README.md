@@ -9,16 +9,6 @@ Features:
 Instant access to company information on LinkedIn profiles
 Efficiently built with React, Vite, Node.js, Express.js, and MongoDB
 Track previously visited companies for quick reference
-Installation:
-
-Clone the repository: git clone https://github.com/your-username/linkedin-company-info.git
-Navigate to the extension folder: cd linkedin-company-info
-Install dependencies: npm install
-Load the extension in Chrome:
-Open Chrome and go to chrome://extensions/
-Enable "Developer mode" in the top right corner
-Click on "Load unpacked" and select the extension folder
-Usage:
 
 Once installed, navigate to a LinkedIn company profile.
 The extension will automatically display relevant company information.
