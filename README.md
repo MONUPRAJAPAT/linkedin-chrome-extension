@@ -1,8 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LinkedIn Company Info Chrome Extension
 
-Currently, two official plugins are available:
+Description:
+This Chrome extension enhances your LinkedIn browsing experience by providing instant access to company information when visiting company profiles. It utilizes React and Vite for frontend development, while the backend is powered by Node.js, Express.js, and MongoDB for seamless performance and data management. Additionally, the extension includes a feature to effortlessly track previously visited companies for easy reference.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
+
+Instant access to company information on LinkedIn profiles
+Efficiently built with React, Vite, Node.js, Express.js, and MongoDB
+Track previously visited companies for quick reference
+Installation:
+
+Clone the repository: git clone https://github.com/your-username/linkedin-company-info.git
+Navigate to the extension folder: cd linkedin-company-info
+Install dependencies: npm install
+Load the extension in Chrome:
+Open Chrome and go to chrome://extensions/
+Enable "Developer mode" in the top right corner
+Click on "Load unpacked" and select the extension folder
+Usage:
+
+Once installed, navigate to a LinkedIn company profile.
+The extension will automatically display relevant company information.
+Previously visited companies are tracked for easy access.
+Contributing:
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+License:
+This project is licensed under the MIT License.
+
+Author:
+Monu Prajapat
+
+Contact:
+For any inquiries or support, please contact [monuprajapat6270@gmail.com].
+
+Version:
+1.0.0
