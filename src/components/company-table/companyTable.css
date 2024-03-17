@@ -1,0 +1,109 @@
+.large-view-container {
+  margin: 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.selected-actions {
+  display: flex;
+  align-items: center;
+}
+
+.action-btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.companies-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header th,
+.table-body td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-btn {
+  padding: 8px 16px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.close-btn {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #eadcdd;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #cbc6c6;
+}
+
+.delete-btn {
+  padding: 5px 10px; /* Adjust padding as needed */
+  background-color: #ef5968; /* Red color for delete button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.copy-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: lightgreen;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  z-index: 9999;
+  animation: slide-in 0.5s ease-out;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-50%) translateY(-100%);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}

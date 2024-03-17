@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "LinkedIn Insights Tracker",
+  "description": "View and save company info from LinkedIn pages",
+  "version": "1.0",
+  "permissions": ["activeTab", "tabs", "*://www.linkedin.com/*"],
+  "icons": {
+    "16": "icon-logo.png",
+    "48": "icon-logo.png",
+    "128": "icon-logo.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "info.html"
+  },
+  "web_accessible_resources": ["popup.html", "popup.js", "index.html"]
+}
